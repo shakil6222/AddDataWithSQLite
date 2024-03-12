@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="enter_name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:id="@+id/Name_EditText"
+        android:layout_height="wrap_content"
+        android:autofillHints="" />
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:hint="enter_amount"-->
+<!--        android:inputType="textAutoComplete"-->
+<!--        android:layout_marginHorizontal="40dp"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:id="@+id/amount_EditText"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints=""-->
+<!--        tools:ignore="DuplicateIds" />-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:hint="enter_name"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginHorizontal="40dp"-->
+<!--        android:id="@+id/enterName_EditText"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints="" />-->
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="amount"
+        android:inputType="textAutoComplete"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/enterAge_EditText"
+        android:layout_height="wrap_content"
+        android:autofillHints="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="savedata"
+            android:layout_marginStart="50sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/saveData_Button"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="showdata"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="50dp"
+            android:id="@+id/showData_Button"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="name"
+            android:textColor="#F57C00"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="50sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textName_TextView"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="amount"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textColor="#F57C00"
+            android:layout_marginStart="100sp"
+            android:textSize="20sp"
+            android:id="@+id/age_TextView"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
